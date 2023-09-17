@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal{
+    height: 85%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.screen {
+    height: 25%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+}
+
+.screen input {
+    height: 100%;
+    width: 75%;
+    display: flex;
+}
+.ac{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowSet {
+    height: 16%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.keySet {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key1 button {
+    height: 70%;
+    width: 70%;
+}
+
+
+
+.key2 button {
+    height: 70%;
+    width: 70%;
+}
+
+
+
+.key3 button {
+    height: 70%;
+    width: 70%;
+}
+
+
+
+.key4 button {
+    height: 70%;
+    width: 70%;
+}
+
+
+.ac button {
+    height: 70%;
+    width: 70%;
+}
+button:hover {
+    cursor: pointer;
+    color: lightslategray;
+}
